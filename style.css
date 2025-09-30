@@ -1,23 +1,21 @@
 body {
-    background: black;
-    
+    background: black;   
 }
-
+.post-body {
+    width: 450;
+    height: 215px;
+    padding: 10px;
+}
 .post {
     background: white;
     width: 500px;
     height: 700px;
-    margin: auto;
-    border: 5px solid green;
-    
-
+    margin: auto; 
 }
-
 .post-header {
     width: 500px;
     height: 75px;
 }
-
 .post-img {
     display: flex;
     padding-top: 50px;
@@ -26,32 +24,28 @@ body {
     background-image: url(/assets/imgpostinstv2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-       
-}
-.post-icons {
-    display: flex;
-    width: 500px;
-    height: 50px;
-}
-.post-body {
-    
-    width: 450;
-    height: 215px;
-}
-p {
-    font-size: 20px;
-    color: rgb(3, 3, 61);
+    background-size: cover;     
 }
 .post-icons {
   display: flex;
   justify-content: space-between; 
   align-items: center;            
-  width: 490px;                   
+  width: 500px; 
+  height:50px;                  
   padding: 5px;
   font-size: 40px;
-  
 }
 .icons-right {
     margin-right: 20px;
+}
+.icons-left {
+  margin-left: 10px;
+}
+.icons-center p {
+    margin-right: 330px;
+    line-height: 0;
+}
+p {
+    font-size: 20px;
+    color: rgb(3, 3, 61);
 }
